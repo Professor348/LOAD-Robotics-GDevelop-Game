@@ -15,7 +15,7 @@
     "packageName": "com.example.gamename",
     "pixelsRounding": false,
     "projectUuid": "200c5660-9d74-4b9f-afb6-955438151607",
-    "scaleMode": "linear",
+    "scaleMode": "nearest",
     "sizeOnStartupMode": "adaptWidth",
     "templateSlug": "",
     "useExternalSourceFiles": false,
@@ -108,6 +108,60 @@
         "name": "Assets\\Ping Indicator\\Ping5.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PlayerRobot - Submarine V1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "PlayerRobot - Submarine V1",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PlayerRobot - Submarine V2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "PlayerRobot - Submarine V2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PlayerRobot - Submarine V3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "PlayerRobot - Submarine V3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PlayerRobot - Submarine V4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "PlayerRobot - Submarine V4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PlayerRobot - Submarine V5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "PlayerRobot - Submarine V5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PlayerRobot - Submarine V6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "PlayerRobot - Submarine V6",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -120,15 +174,15 @@
   "variables": [],
   "layouts": [
     {
-      "b": 209,
+      "b": 66,
       "disableInputWhenNotFocused": true,
       "mangledName": "Untitled_32scene",
       "name": "Untitled scene",
-      "r": 209,
+      "r": 36,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 209,
+      "v": 5,
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
@@ -149,7 +203,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "PingIndicator",
+          "name": "Player_Robot",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -157,16 +211,17 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "PlayerRobot - Submarine V1",
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.05,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Assets\\Ping Indicator\\Ping1.png",
+                      "image": "PlayerRobot - Submarine V1",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -182,27 +237,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 8,
+                            "y": 10
                           },
                           {
-                            "x": 33,
-                            "y": 0
+                            "x": 72,
+                            "y": 10
                           },
                           {
-                            "x": 33,
-                            "y": 21
+                            "x": 72,
+                            "y": 58
                           },
                           {
-                            "x": 0,
-                            "y": 21
+                            "x": 8,
+                            "y": 58
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Assets\\Ping Indicator\\Ping2.png",
+                      "image": "PlayerRobot - Submarine V2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -218,27 +273,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 8,
+                            "y": 10
                           },
                           {
-                            "x": 33,
-                            "y": 0
+                            "x": 72,
+                            "y": 10
                           },
                           {
-                            "x": 33,
-                            "y": 21
+                            "x": 72,
+                            "y": 58
                           },
                           {
-                            "x": 0,
-                            "y": 21
+                            "x": 8,
+                            "y": 58
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Assets\\Ping Indicator\\Ping3.png",
+                      "image": "PlayerRobot - Submarine V3",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -254,27 +309,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 8,
+                            "y": 10
                           },
                           {
-                            "x": 33,
-                            "y": 0
+                            "x": 72,
+                            "y": 10
                           },
                           {
-                            "x": 33,
-                            "y": 21
+                            "x": 72,
+                            "y": 58
                           },
                           {
-                            "x": 0,
-                            "y": 21
+                            "x": 8,
+                            "y": 58
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Assets\\Ping Indicator\\Ping4.png",
+                      "image": "PlayerRobot - Submarine V4",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -290,27 +345,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 8,
+                            "y": 10
                           },
                           {
-                            "x": 33,
-                            "y": 0
+                            "x": 72,
+                            "y": 10
                           },
                           {
-                            "x": 33,
-                            "y": 21
+                            "x": 72,
+                            "y": 58
                           },
                           {
-                            "x": 0,
-                            "y": 21
+                            "x": 8,
+                            "y": 58
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Assets\\Ping Indicator\\Ping5.png",
+                      "image": "PlayerRobot - Submarine V5",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -326,20 +381,56 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 8,
+                            "y": 10
                           },
                           {
-                            "x": 33,
-                            "y": 0
+                            "x": 72,
+                            "y": 10
                           },
                           {
-                            "x": 33,
-                            "y": 21
+                            "x": 72,
+                            "y": 58
                           },
                           {
-                            "x": 0,
-                            "y": 21
+                            "x": 8,
+                            "y": 58
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "PlayerRobot - Submarine V6",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 10
+                          },
+                          {
+                            "x": 72,
+                            "y": 10
+                          },
+                          {
+                            "x": 72,
+                            "y": 58
+                          },
+                          {
+                            "x": 8,
+                            "y": 58
                           }
                         ]
                       ]
@@ -355,11 +446,17 @@
         "folderName": "__ROOT",
         "children": [
           {
-            "objectName": "PingIndicator"
+            "objectName": "Player_Robot"
           }
         ]
       },
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 200,
